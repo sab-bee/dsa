@@ -1,4 +1,4 @@
-# pivot is middle element
+# middle element as pivot
 
 def quickSort(arr, low, high):
 
