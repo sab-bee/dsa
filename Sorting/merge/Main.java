@@ -1,4 +1,4 @@
-package Sorting;
+package Sorting.merge;
 
 public class Main {
   public static void main(String[] args) {
