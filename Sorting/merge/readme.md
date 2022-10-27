@@ -1,8 +1,8 @@
 
 
 ```
-function mergeSort
-  base case -> return array if len of the array <= 1
+function mergeSort <- arr
+  base case -> return the array if len of the array <= 1
   mid <- array length / 2
 
   L[] <- all the values before mid (including mid)
