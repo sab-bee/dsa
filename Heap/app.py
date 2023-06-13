@@ -8,7 +8,7 @@ def insertHeap(arr, n, data):
         else:return
 
 def deleteHeap(arr, n):
-    i = 0 # is root at first
+    i = 0 # is root at
     parentOfLast = (n-1)//2 # store parent of the last element
     swap(arr, i, n-1) # swap the last element with the root element
 

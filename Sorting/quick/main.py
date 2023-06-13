@@ -3,8 +3,7 @@
 def quickSort(arr, low, high):
 
     if low >= high:
-        return None
-    
+        return
     pi = partition(arr, low, high)
     quickSort(arr, low, pi-1)
     quickSort(arr, pi+1, high)
